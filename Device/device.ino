@@ -1,7 +1,7 @@
 #include "neopixel.h"
 
 #define NUMBER_OF_LED 72 // This is the number of LEDs in your strip
-#define LED_PIN 16 // This is the pin you plugged the data wire into
+PinName LED_PIN = PB_6; // this is the pin you plugged the data wire into
 
 static NeoPixel *neopixel = NULL;
 static int test = 0;
